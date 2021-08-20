@@ -32,10 +32,16 @@
 
 			<ul class="contacts">
 				<li class="contacts-item">
-					<a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+					<a class="contacts-link" href="mailto:info@devstudio.com">
+						<svg class="contacts-icon envelope" width="16" height="12">
+							<use href="./images/icon/sprite.svg#envelope"></use>
+						</svg>info@devstudio.com</a>
 				</li>
 				<li class="contacts-item">
-					<a class="contacts-link" href="tel:+380961111111">+38 (096) 111 11 11</a>
+					<a class="contacts-link" href="tel:+380961111111">
+						<svg class="contacts-icon" width="10" height="16">
+							<use href="./images/icon/sprite.svg#phone"></use>
+						</svg>+38 (096) 111 11 11</a>
 				</li>
 			</ul>
 		</div>
@@ -157,19 +163,53 @@
 
 	<!-- Подвал -->
 	<footer class="footer-section">
-		<div class="container">
-			<a class="footer-logo" href="./index.html"><span class="logo-1">Web</span>Studio</a>
-			<address>
-				<ul class="address">
-					<li class="address-item street">
-						<a class="address-link" target="_blank"
-							href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+26,+Киев">
-							г. Киев, пр-т Леси Украинки, 26</a>
+
+		<div class="container footer-container">
+			<div class="address">
+				<a class="footer-logo" href="./index.html"><span class="logo-1">Web</span>Studio</a>
+				<address>
+					<ul class="address">
+						<li class="address-item street">
+							<a class="address-link" target="_blank"
+								href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+26,+Киев">
+								г. Киев, пр-т Леси Украинки, 26</a>
+						</li>
+						<li class="address-item"><a class="address-link" href="mailto:info@example.com">info@example.com</a>
+						</li>
+						<li class="address-item"><a class="address-link" href="tel:+380991111111">+38 (099) 111 11 11</a></li>
+					</ul>
+				</address>
+			</div>
+
+			<div class="join">
+				<h2 class="join-title">Присоеденяйтесь</h2>
+				<ul class="join-list">
+					<li class="join-item">
+						<a class="join-link" href="https://www.instagram.com"><svg class="icon">
+								<use href="./images/sprite.svg#instagram">
+								</use>
+							</svg></a>
 					</li>
-					<li class="address-item"><a class="address-link" href="mailto:info@example.com">info@example.com</a></li>
-					<li class="address-item"><a class="address-link" href="tel:+380991111111">+38 (099) 111 11 11</a></li>
+					<li class="join-item">
+						<a class="join-link" href="https://twitter.com"><svg class="icon">
+								<use href="./images/sprite.svg#twitter">
+								</use>
+							</svg></a>
+					</li>
+					<li class="join-item">
+						<a class="join-link" href="https://www.facebook.com"><svg class="icon">
+								<use href="./images/sprite.svg#facebook">
+								</use>
+							</svg></a>
+					</li>
+					<li class="join-item">
+						<a class="join-link" href="https://www.linkedin.com"><svg class="icon">
+								<use href="./images/sprite.svg#linkedin">
+								</use>
+							</svg></a>
+					</li>
 				</ul>
-			</address>
+			</div>
 		</div>
 	</footer>
 </body>
